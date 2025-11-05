@@ -1,0 +1,11 @@
+console.log("Minted token ID:", await myNFT._tokenIds());
+ (await myNFT.tokenURI(2));
+ (await myNFT.tokenURI(1));
+(await myNFT.ownerOf(1)).toString();
+const myNFT = MyNFT.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const MyNFT = await ethers.getContractFactory("MyNFT");
+exit
+(await myNFT.tokenURI(1));
+(await myNFT.ownerOf(1)).toString();
+const myNFT = MyNFT.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const MyNFT = await ethers.getContractFactory("MyNFT");
